@@ -1,0 +1,14 @@
+﻿  MainGame.cpp
+C:\stuff\graphics\graphics\MainGame.cpp(28,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(28,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(31,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(31,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(31,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(75,20): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(78,16): warning C4305: '+=': truncation from 'double' to 'float'
+C:\stuff\graphics\graphics\MainGame.cpp(93,32): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(163,25): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(166,29): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  graphics.vcxproj -> C:\stuff\graphics\x64\Debug\graphics.exe
