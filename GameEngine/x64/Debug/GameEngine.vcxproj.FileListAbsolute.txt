@@ -1,0 +1,2 @@
+C:\stuff\graphics\x64\Debug\GameEngine.pdb
+C:\stuff\graphics\GameEngine\x64\Debug\GameEngine.pdb
