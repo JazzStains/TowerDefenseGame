@@ -19,7 +19,7 @@ namespace GameEngine {
 	void camera2D::update() {
 		if (_needsMatrixUpdate) {
 			//camera translation
-			glm::vec3 translate(-_position.x + _screenWidth / 2, -_position.y + _screenHeight / 2, 0.0f);
+			glm::vec3 translate(-_position.x,-_position.y, 0.0f);
 			_cameraMatrix = glm::translate(_orthoMatrix, translate);
 
 			//camera scale
@@ -32,5 +32,10 @@ namespace GameEngine {
 		_screenWidth = screenWidth;
 		_screenHeight = screenHeight;
 		_orthoMatrix = glm::ortho(0.0f, (float)_screenWidth, 0.0f, (float)_screenHeight);
+	}
+
+	glm::vec2 camera2D::convertScreenToWorld(glm::vec2 screenCoords) {
+		screenCoords.y =  _screenHeight - screenCoords.y;
+		return screenCoords;
 	}
 }

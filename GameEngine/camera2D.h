@@ -12,6 +12,7 @@ namespace GameEngine {
 
 		void update();
 		void init(int screenWidth, int screenHeight);
+		glm::vec2 convertScreenToWorld(glm::vec2 screenCoords);
 
 		//setters
 		void setPosition(const glm::vec2& newPosition) {

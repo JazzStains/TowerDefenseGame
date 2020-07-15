@@ -21,5 +21,6 @@ namespace GameEngine {
 		float _height;
 		GLTexture _texture;
 		GLuint _vboiID;  //unsigned int of openGL  //acts as vertex buffer
+
 	};
 }

@@ -66,9 +66,13 @@ namespace GameEngine {
 
 		glBindTexture(GL_TEXTURE_2D, _texture.id);
 
+
 		glBindBuffer(GL_ARRAY_BUFFER, _vboiID);
 
 		glEnableVertexAttribArray(0);   //sets location
+		glEnableVertexAttribArray(1);
+		glEnableVertexAttribArray(2);
+
 		//position attribute pointer
 		glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)offsetof(Vertex, position)); //finds position of vertex data in buffer ID //position attribute pointer
 		//color attribute pointer
@@ -78,6 +82,8 @@ namespace GameEngine {
 		glDrawArrays(GL_TRIANGLES, 0, 6); //draws arrays
 
 		glDisableVertexAttribArray(0);
+		glDisableVertexAttribArray(1);
+		glDisableVertexAttribArray(2);
 
 		glBindBuffer(GL_ARRAY_BUFFER, 0);
 	}

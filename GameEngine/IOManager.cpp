@@ -1,5 +1,6 @@
 #include "IOManager.h"
 #include <fstream>
+
 namespace GameEngine {
 	bool IOManager::readFileToBuffer(std::string filePath, std::vector<unsigned char>& buffer) {
 		std::ifstream file(filePath, std::ios::binary);
