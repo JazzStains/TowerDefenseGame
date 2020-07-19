@@ -1,3 +1,5 @@
-﻿  BoarMan.cpp
-C:\stuff\graphics\graphics\BoarMan.cpp(5,14): warning C4305: '=': truncation from 'double' to 'float'
+﻿  MainGame.cpp
+C:\stuff\graphics\graphics\MainGame.cpp(130,63): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(130,46): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+C:\stuff\graphics\graphics\MainGame.cpp(231,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   graphics.vcxproj -> C:\stuff\graphics\x64\Debug\graphics.exe

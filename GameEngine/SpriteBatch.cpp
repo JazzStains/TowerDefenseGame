@@ -32,7 +32,7 @@ namespace GameEngine {
 
 	}
 
-	void SpriteBatch::draw(const glm::vec4& destRect, const  glm::vec4& uvRect, GLuint texture, float depth, const Color& color) {
+	void SpriteBatch::draw(const glm::vec4& destRect, const  glm::vec4& uvRect, GLuint texture, float depth, const ColorRGBA8& color) {
 		Glyph* newGlyph;
 		newGlyph = new Glyph;
 

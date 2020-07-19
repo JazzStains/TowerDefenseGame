@@ -1,0 +1,8 @@
+﻿  GUI.cpp
+C:\stuff\graphics\GameEngine\GUI.cpp(77,61): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+C:\stuff\graphics\GameEngine\GUI.cpp(77,46): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+CEGUIOpenGLRenderer-0.lib(CEGUIOpenGLRenderer-0.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in CEGUIBase-0.lib(CEGUIBase-0.dll); second definition ignored
+SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in CEGUIBase-0.lib(CEGUIBase-0.dll); second definition ignored
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in CEGUIBase-0.lib(CEGUIBase-0.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in CEGUIBase-0.lib(CEGUIBase-0.dll); second definition ignored
+  GameEngine.vcxproj -> C:\stuff\graphics\x64\Release\GameEngine.lib

@@ -1,4 +1,7 @@
-﻿  IOManager.cpp
-C:\stuff\graphics\GameEngine\IOManager.cpp(15,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
-C:\stuff\graphics\GameEngine\IOManager.cpp(18,27): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (graphics.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  GUI.cpp
+CEGUIOpenGLRenderer-0_d.lib(CEGUIOpenGLRenderer-0_d.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in CEGUIBase-0_d.lib(CEGUIBase-0_d.dll); second definition ignored
+SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in CEGUIBase-0_d.lib(CEGUIBase-0_d.dll); second definition ignored
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in CEGUIBase-0_d.lib(CEGUIBase-0_d.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in CEGUIBase-0_d.lib(CEGUIBase-0_d.dll); second definition ignored
   GameEngine.vcxproj -> C:\stuff\graphics\x64\Debug\GameEngine.lib

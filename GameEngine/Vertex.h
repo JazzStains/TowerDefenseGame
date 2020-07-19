@@ -8,8 +8,19 @@ namespace GameEngine {
 	};
 
 	//4byytes for r g b a color
-	struct Color {
-
+	struct ColorRGBA8 {
+		ColorRGBA8() {
+			r = 0;
+			g = 0;
+			b = 0;
+			a = 0;
+		}
+		ColorRGBA8(GLubyte R, GLubyte G, GLubyte B, GLubyte A) {
+			r = R;
+			g = G;
+			b = B;
+			a = A;
+		}
 		GLubyte r;
 		GLubyte g;
 		GLubyte b;
@@ -25,7 +36,7 @@ namespace GameEngine {
 
 	struct Vertex {
 		Position position;
-		Color color;	//4 bytes for RGBA
+		ColorRGBA8 color;	//4 bytes for RGBA
 		UV uv;          //uv texture coordinates
 
 		void setPosition(float x, float y) {

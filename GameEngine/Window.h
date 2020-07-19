@@ -17,6 +17,7 @@ namespace GameEngine {
 		int getScreenHeight() { return _screenHeight; };
 
 		void swapBuffer();
+		void deleteWindow();
 
 	private:
 		SDL_Window* _sdlWindow;

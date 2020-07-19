@@ -3,15 +3,15 @@
 BackGround::BackGround() {
 
 }
-void BackGround::init(int width, int height) {
+void BackGround::init(int width, int height,std::string pathFile) {
 	_height = height;
 	_width = width;
-	_texture = GameEngine::ResourceManager::getTexture("textures/bg.png");
+	_texture = GameEngine::ResourceManager::getTexture(pathFile);
 }
 
 void BackGround:: draw(GameEngine::SpriteBatch& spriteBatch) {
 	glm::vec4 uv(0.0f, 0.0f, 1.0f, 1.0f);
-	GameEngine::Color color;
+	GameEngine::ColorRGBA8 color;
 	color.r = 255;
 	color.g = 255;
 	color.b = 255;

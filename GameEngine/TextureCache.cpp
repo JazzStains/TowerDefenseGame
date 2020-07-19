@@ -20,10 +20,10 @@ namespace GameEngine {
 			//insert into map
 			_textureMap.insert(make_pair(texturePath, newTexture));
 
-			std::cout << "Loaded Cache Texture! \n";
+			//std::cout << "Loaded Cache Texture! \n";
 			return newTexture;
 		}
-		std::cout << "Loaded Texture! \n";
+	//	std::cout << "Loaded Texture! \n";
 		return mit->second;
 	}
 }

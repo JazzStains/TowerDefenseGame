@@ -8,7 +8,7 @@ class BackGround
 {
 public:
 	BackGround();
-	void init(int width, int height);
+	void init(int width, int height,std::string pathFile);
 	void draw(GameEngine::SpriteBatch& spriteBatch);
 private:
 	int _height;

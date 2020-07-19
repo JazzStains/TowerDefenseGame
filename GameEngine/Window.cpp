@@ -7,7 +7,7 @@ namespace GameEngine {
 	}
 
 	Window::~Window() {
-
+		
 	}
 
 	int Window::create(std::string windowName, int screenWidth, int screenHeight, unsigned int currentFlags) {
@@ -64,5 +64,8 @@ namespace GameEngine {
 	void Window::swapBuffer() {
 		//Swap buffer and draw everuthing on screen
 		SDL_GL_SwapWindow(_sdlWindow);
+	}
+	void Window::deleteWindow() {
+		SDL_DestroyWindow(_sdlWindow);
 	}
 }
